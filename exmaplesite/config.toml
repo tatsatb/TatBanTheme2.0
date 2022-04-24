@@ -1,0 +1,37 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "A Demo Site for TatBanTheme2.0"
+theme = "TatBanTheme2.0"
+disqusShortname = 'tatsatb'
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true # Allow HTML in md files
+
+            
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+            
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publication/"
+    weight = 3
+  [[menu.main]]
+    name = "News"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5

@@ -1,0 +1,48 @@
+baseURL = 'https://www.tatsatbanerjee.in/'
+languageCode = 'en-us'
+title = 'Tatsat Banerjee | Personal Homepage'
+theme = "TatBanTheme2.0"
+disqusShortname = 'tatsatb'
+
+
+
+[taxonomies]
+  category = 'categories'
+  tag = 'tags'
+
+
+
+
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true # Allow HTML in md files
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publication/"
+    weight = 3
+  [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+    
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.60.0"
+    max = "0.97.0"   

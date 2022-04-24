@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-sm-10 offset-sm-1 col-md-9 offset-md-1 col-lg-8 offset-lg-2 col-xl-8 offset-lg-2">
+
+<h3 class="tbh3"><br/>{{ .Title }}</h3>
+{{ partial "metadata.html" . }}
+<br><br>
+
+
+
+
+        {{ .Content }}
+        {{ template "_internal/disqus.html" . }}
+
+</div>
+</div>
+</div>
+
+
+{{ end }}
