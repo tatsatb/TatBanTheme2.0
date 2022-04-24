@@ -2,7 +2,7 @@
 
 TatBanTheme2.0 is a minimal hugo theme to build an elegant website and a working blog theme. The theme is built from scratch using responsive Bootstrap 5 framework.
 
-[Live demo is on Netlify]().
+**[Live demo is on Netlify](https://tatbanthemedemo.netlify.app/).**
 
 Although it has 2.0 in its name, it is still a work-in-progress project. I will be adding more CSS elements in future releases.
 
