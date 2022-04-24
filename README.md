@@ -56,14 +56,14 @@ git clone https://github.com/tatsatb/TatBanTheme2.0.git themes/TatBanTheme2.0
 
 ## Features 
 
-1. Fully responsive mobile-first theme. It should look great in any screen. 
-2. Unique design. The theme was designed from scratch. It is not a fork of any other Hugo/Jekyll/HTML5 theme or anything similar. 
-3. Bootstrap 5. Elegant CSS framework and icon sets are included. 
-4. Blog-aware theme. It can generate tags and categories pages by default.
-5. Comments are welcome. Disqus is configured and enabled by default. 
-6. Separate page templates. Because your bols posts, list pages, and Homepage should not look the same!
-7. SEO friendly. Custom description meta-tag for each page. 
-8. HTML enabled. Markdown is great, but sometimes we do need more control over our content. 
+1. **Fully responsive mobile-first theme**. It should look great in any screen. 
+2. **Unique design**. The theme was designed from scratch. It is not a fork of any other Hugo/Jekyll/HTML5 theme or anything similar. 
+3. **Bootstrap 5**. Elegant CSS framework and icon sets are included. 
+4. **Blog-aware theme**. It can generate tags and categories pages by default.
+5. **Comments are enabled**. Disqus is configured and enabled by default. 
+6. **Separate page templates**. Because your blog posts, list pages, and Homepage should not look the same!
+7. **SEO friendly**. Custom description meta-tag for each page. 
+8. **Custom HTML enabled**. Markdown is great, but sometimes we do need more control. So you can directly type in HTML inside any .md files if you are using this theme. 
 
 
 ## Configuring your site
