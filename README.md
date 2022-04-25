@@ -95,7 +95,7 @@ For example, the above line will load the CSS-file placed at `/static/css/custom
 
 The theme uses a different css framework for landing page/homepage. It is located at `themes/TatBanTheme2.0/layouts/partials/index.html`. You can copy and paste in your sites layouts folder and then edit it as you like. If you prefer a simpler/minmal option, you can, of course, make a new homepage: 
 
-Use `singlepage` layout, as found in `themes/TatBanTheme2.0/layouts/_default/ folder and write it in markdown as other pages are written.
+Use `singlepage` layout, as found in `themes/TatBanTheme2.0/layouts/_default/` folder and write it in markdown as other pages are written.
 
 ### Disable HTML  editing  
 
@@ -112,12 +112,19 @@ You can still selectively add HTML inside your markdown by using `{{< rawhtml >}
 
 ### Comment system on blog posts
 
-Disqus Comments are enabled by default. Please  update your Disqus username in `disqusShortname` field of your site's `config.toml` file. If you have not signed up to Disqus, you can always [sign up for free] (https://disqus.com/profile/signup/).
+Disqus Comments are enabled by default. Please  update your Disqus username in `disqusShortname` field of your site's `config.toml` file. If you have not signed up to Disqus, you can always [sign up for free](https://disqus.com/profile/signup/).
 
 Just use `single` layout in front matter to make Disqus appear at the bottom of the pages. 
 
 
-## License
+## License 
 
-GNU GPL v3
+Copyright © 2022 Tatsat Banerjee
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>. 
+
  
