@@ -70,7 +70,7 @@ git clone https://github.com/tatsatb/TatBanTheme2.0.git themes/TatBanTheme2.0
 
 ### Basics
 
-The ground rule of customizing any aspect of website for your personal is to follow the directory struture of theme and create similar directory and files at the site's root directory. 
+The ground rule of customizing any aspect of website for your personal use is to follow the directory struture of theme and create similar directory and files at the site's root directory. 
 
 You do not have to edit files in `themes` folder to edit your site configuration. As per Hugo's [lookup order](https://gohugo.io/templates/lookup-order/), your site's root directory's files will get precedence and Hugo will use your file (instead of theme's file) to render website. If you edit files directly in`themes` folder, your site may become incompatible with future versions of the theme. 
 
