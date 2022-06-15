@@ -2,6 +2,7 @@
 title: "Contact"
 layout: singlepage
 Description: Contact details of Tatsat Banerjee
+math: true
 ---
 
 <br/><br/>

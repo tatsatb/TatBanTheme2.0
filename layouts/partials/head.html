@@ -24,5 +24,7 @@
     {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
     <title>{{ $title }}</title>
 
+    
+{{ if .Params.math }}{{ partial "helpers/katex.html" . }}{{ end }}
 
 </head>

@@ -6,9 +6,8 @@ layout: single
 Description: News of first blog post
 categories: [Category1, Category2]
 tags: 
+math: true
 ---
-
-
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane potestate est, quid meminerimus? Quid ergo attinet dicere: Nihil haberem, quod reprehenderem, si finitas cupiditates haberent? Traditur, inquit, ab Epicuro ratio neglegendi doloris. Idem iste, inquam, de voluptate quid sentit? 
 
@@ -19,11 +18,25 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Primum in nostrane pote
 
 Idem iste, inquam, de voluptate quid sentit? Duo Reges: constructio interrete. Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest. 
 
+
+## Some example of $\LaTeX$ typesetting: 
+
+$x = {-b \pm \sqrt{b^2-4ac} \over 2a}$
+
+
+<br/>
+
+
+The integrals will look like this: 
+
+$$\int_{a}^{b} (x^4+5ln(x+sin(x))) dx$$
+
+Yes, it would look _this_ nice.
+<br/>
+<br/><br/>
 ### Duo Reges: constructio interrete. 
 
 Nec vero pietas adversus deos nec quanta iis gratia debeatur sine explicatione naturae intellegi potest. 
-
-
 
 __Negat enim summo bono afferre incrementum diem.__ Ex quo intellegitur officium medium quiddam esse, quod neque in bonis ponatur neque in contrariis. Nonne videmus quanta perturbatio rerum omnium consequatur.
 
@@ -61,7 +74,6 @@ Vivamus scelerisque enim tincidunt, porttitor nisi eget, blandit magna. Donec su
 
 _Atqui reperies, inquit, in hoc quidem pertinacem; Cur id non ita fit? Aliter homines, aliter philosophos loqui putas oportere? Ergo illi intellegunt quid Epicurus dicat, ego non intellego? Magni enim aestimabat pecuniam non modo non contra leges, sed etiam legibus partam. Quis istud possit, inquit, negare?_ 
 
-
-<br/><br/><br/><br/>
+<br/><br/>
 
 
