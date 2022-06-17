@@ -6,6 +6,7 @@ license = "GNU General Public License Version 3"
 licenselink = "https://github.com/tatsatb/TatBanTheme2.0/blob/main/LICENSE"
 description = "A minimal theme to build an elegant website and a working blog"
 homepage = "http://www.tatsatbanerjee.in/"
+demosite = "https://tatbanthemedemo.netlify.app/"
 tags = ["Blog", "Responsive", "Minimal", "Personal", "Bootstrap", "Light"]
 features = ["responsive", "mobile-first", "landing page", "navigation"]
 min_version = "0.60.0"

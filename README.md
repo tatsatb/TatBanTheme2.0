@@ -1,6 +1,6 @@
 # TatBanTheme2.0 
 
-TatBanTheme2.0 is a minimal hugo theme to build an elegant website and a working blog theme. The theme is built from scratch using responsive Bootstrap 5 framework.
+TatBanTheme2.0 is a minimal Hugo theme to build an elegant website and a working blog. The theme is built from scratch using responsive Bootstrap 5 framework.
 
 **[Live demo is on Netlify](https://tatbanthemedemo.netlify.app/).**
 
@@ -72,7 +72,7 @@ git clone https://github.com/tatsatb/TatBanTheme2.0.git themes/TatBanTheme2.0
 
 ### Basics
 
-The ground rule of customizing any aspect of website for your personal is to follow the directory struture of theme and create similar directory and files at the site's root directory. 
+The ground rule of customizing any aspect of website for your personal use is to follow the directory struture of theme and create similar directory and files at the site's root directory. 
 
 You do not have to edit files in `themes` folder to edit your site configuration. As per Hugo's [lookup order](https://gohugo.io/templates/lookup-order/), your site's root directory's files will get precedence and Hugo will use your file (instead of theme's file) to render website. If you edit files directly in`themes` folder, your site may become incompatible with future versions of the theme. 
 
@@ -97,7 +97,7 @@ For example, the above line will load the CSS-file placed at `/static/css/custom
 
 The theme uses a different css framework for landing page/homepage. It is located at `themes/TatBanTheme2.0/layouts/partials/index.html`. You can copy and paste in your sites layouts folder and then edit it as you like. If you prefer a simpler/minmal option, you can, of course, make a new homepage: 
 
-Use `singlepage` layout, as found in `themes/TatBanTheme2.0/layouts/_default/ folder and write it in markdown as other pages are written.
+Use `singlepage` layout, as found in `themes/TatBanTheme2.0/layouts/_default/` folder and write it in markdown as other pages are written.
 
 
 
@@ -130,12 +130,19 @@ Then, please use double dollar signs ($$) to enclose the TeX typesetting. You ca
 
 ### Comment system on blog posts
 
-Disqus Comments are enabled by default. Please  update your Disqus username in `disqusShortname` field of your site's `config.toml` file. If you have not signed up to Disqus, you can always [sign up for free] (https://disqus.com/profile/signup/).
+Disqus Comments are enabled by default. Please  update your Disqus username in `disqusShortname` field of your site's `config.toml` file. If you have not signed up to Disqus, you can always [sign up for free](https://disqus.com/profile/signup/).
 
 Just use `single` layout in front matter to make Disqus appear at the bottom of the pages. 
 
 
-## License
+## License 
 
-GNU GPL v3
+Copyright © 2022 Tatsat Banerjee
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>. 
+
  
