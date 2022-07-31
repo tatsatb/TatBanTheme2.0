@@ -125,7 +125,7 @@ math: true
 ---
 ```
 
-Then, please use double dollar signs ($$) to enclose the TeX typesetting. You can also use inline equations by enclosing with single dollar sign ($).
+Then, please use double dollar signs ($ $) to enclose the TeX typesetting. You can also use inline equations by enclosing with single dollar sign ($).
 
 
 ### Comment system on blog posts
