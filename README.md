@@ -4,9 +4,9 @@ TatBanTheme2.0 is a minimal Hugo theme to build an elegant website and a working
 
 **[Live demo is on Netlify](https://tatbanthemedemo.netlify.app/).**
 
-Although it has 2.0 in its name, it is still a work-in-progress project. I will be adding more CSS elements in future releases.
+Although it has 2.0 in its name, it is still a work-in-progress project. I will be adding more CSS (and hopefully some JS) elements in future releases.
 
-Also the aim of this theme is not necessarily to provide a _plug and play_ framework, but to encourage people to get started with their own customizations. 
+The aim of this theme is not necessarily to provide a _plug and play_ framework, but to encourage people to get started with their own customizations. 
 
 
 ## Installation 
