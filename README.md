@@ -72,14 +72,14 @@ You should see a working website.
 
 ### Basics
 
-The ground rule of customizing any aspect of website for your personal use is to follow the directory struture of theme and create similar directory and files at the site's root directory. 
+The ground rule of customizing any aspect of website for your personal use is to follow the directory structure of theme and create similar directory and files at the site's root directory. 
 
 You do not have to edit files in `themes` folder to edit your site configuration. As per Hugo's [lookup order](https://gohugo.io/templates/lookup-order/), your site's root directory's files will get precedence and Hugo will use your file (instead of theme's file) to render website. If you edit files directly in`themes` folder, your site may become incompatible with future versions of the theme. 
 
 
 ### Social media links
 
-Copy `footer.html` from `themes/TatBanTheme2.0/layouts/partials/` to `myawesomesite/layouts/partials/` folder. Open the copied files in your favorite Text editor/IDE and edit the links to add your Facebook/Twiiter/Linkedin/Email ID. 
+Copy `footer.html` from `themes/TatBanTheme2.0/layouts/partials/` to `myawesomesite/layouts/partials/` folder. Open the copied files in your favorite Text editor/IDE and edit the links to add your Facebook/Twitter/Linkedin/Email ID. 
 
  
  
@@ -95,7 +95,7 @@ For example, the above line will load the CSS-file placed at `/static/css/custom
 
 ### Homepage settings
 
-The theme uses a different css framework for landing page/homepage. It is located at `themes/TatBanTheme2.0/layouts/partials/index.html`. You can copy and paste in your sites layouts folder and then edit it as you like. If you prefer a simpler/minmal option, you can, of course, make a new homepage: 
+The theme uses a different css framework for landing page/homepage. It is located at `themes/TatBanTheme2.0/layouts/partials/index.html`. You can copy and paste in your sites layouts folder and then edit it as you like. If you prefer a simpler/minimal option, you can, of course, make a new homepage: 
 
 Use `singlepage` layout, as found in `themes/TatBanTheme2.0/layouts/_default/` folder and write it in markdown as other pages are written.
 
